@@ -1,0 +1,26 @@
+{
+  "id": "0c9ad059-1879-4e25-b5a7-384b9e700de6",
+  "name": "GRC Parfum",
+  "publisher": "F1 Consulting Services",
+  "version": "1.0.0.1",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "logo.jfif",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
+  "features": ["TranslationFile", "GenerateCaptions"],
+  "idRanges": [
+    {
+      "from": 50501,
+      "to": 59999
+    }
+  ],
+  "showMyCode": true,
+  "runtime": "6.0"
+}

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="GRC Parfum">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 3789547247 - Control 4187992892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2341912694">
+          <source>Direct Unit Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemVendorCatalog - Control Direct Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3789547247 - Method 716454850 - NamedType 1999083748" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3789547247">
+          <source>The preferencial vendor for the article %1 is %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemVendorCatalog - Method OnOpenPage - NamedType InformMessageLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3789547247 - Method 716454850 - NamedType 1162544269" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3789547247">
+          <source>The preferencial vendor for the article </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemVendorCatalog - Method OnOpenPage - NamedType Lbl001</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3789547247 - Method 716454850 - NamedType 524847652" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3789547247">
+          <source> is </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemVendorCatalog - Method OnOpenPage - NamedType Lbl002</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1927176922 - Control 374142380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Preferible Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemCard - Control Preferible Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1927176922 - Control 572131315 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Preferible Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemCard - Control F1 - Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1684870121 - Field 4187992892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2064785779">
+          <source>Direct Unit Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TabExtItemVendor - Field Direct Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2900907269 - Field 374142380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Preferible Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TabExtItem - Field Preferible Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2900907269 - Field 572131315 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>F1 - Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TabExtItem - Field F1 - Vendor No. - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
