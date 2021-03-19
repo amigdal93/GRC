@@ -1,7 +1,7 @@
 report 50503 "GRC - Item Label"
 {
     DefaultLayout = RDLC;
-    RDLCLayout = '5 - Report/layouts/Rep50503ItemLabel.rdl';
+    RDLCLayout = 'src/5 - Report/layouts/Rep50503ItemLabel.rdl';
     ApplicationArea = All;
     Caption = 'Item Label';
     UsageCategory = ReportsAndAnalysis;
