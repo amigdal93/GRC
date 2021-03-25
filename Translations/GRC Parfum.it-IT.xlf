@@ -41,6 +41,42 @@
           <target state="translated">Data scadenza</target>
           <note from="Xliff Generator" annotates="general" priority="3">Report GRC - ProdOrderCompandRouting - NamedType ProdOrderLineDueDateCaptLbl</note>
         </trans-unit>
+        <trans-unit id="Report 1424609248 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - List</source>
+          <target state="translated">Lista ordini produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1424609248 - NamedType 2980640554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - List</source>
+          <target state="translated">Lista ordini produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType Prod__Order___ListCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1424609248 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Pagina</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1424609248 - NamedType 2056924278" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date and Time</source>
+          <target state="translated">Data e ora inizio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType Production_Order__Starting_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1424609248 - NamedType 2700931458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target state="translated">Data scadenza</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType Production_Order__Due_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146123321 - Action 2232472711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3830228482">
+          <source>Production Order List</source>
+          <target state="translated">Lista ordini produzione 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtFirmPlannedProdOrders - Action F1 - Production Order List - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 3320051604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Label</source>
           <target state="translated">Etichetta articolo</target>
