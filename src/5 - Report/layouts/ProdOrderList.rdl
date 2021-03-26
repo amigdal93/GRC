@@ -217,29 +217,34 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="textbox5">
+                        <Textbox Name="Textbox13">
+                          <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Constant" />
+                                  <Value>=Code.SetData(Cstr(Fields!FORMAT_TODAY_0_4_.Value) + Chr(177) + Cstr(Fields!COMPANYNAME.Value) + Chr(177) + Cstr(Fields!CurrReport_PAGENOCaption.Value) + Chr(177) + Cstr(Fields!CompPic.Value) + Chr(177) + Cstr(Fields!Prod__Order___ListCaption.Value), 1)</Value>
                                   <Style>
                                     <FontSize>8pt</FontSize>
+                                    <Color>Red</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>textbox5</rd:DefaultName>
-                          <ZIndex>69</ZIndex>
+                          <rd:DefaultName>Textbox13</rd:DefaultName>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
                           <Style>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -3191,17 +3196,21 @@ Public Function BlankNegAndZero(ByVal Value As Decimal)
     Return Value
 End Function
 
-Shared HeaderData As Object
+Shared data1 As Object
  
-Public Function GetData(Num As Integer) As Object
-   Return Cstr(Choose(Num, Split(Cstr(HeaderData),Chr(177))))
-End Function
- 
-Public Function SetData(NewData As Object)
-    If NewData &lt;&gt; “” Then
-        HeaderData = NewData
-    End If
-End Function</Code>
+public function GetData(Num as Integer, Group as integer) as object
+if Group = 1 then
+  return Cstr(Choose(Num, Split(Cstr(data1),Chr(177))))
+end if
+end function
+
+public function SetData(NewData as Object,Group as integer)
+if Group = 1 and NewData &gt; "" then
+    data1 = NewData
+end if
+
+return true
+end function</Code>
   <Language>=User!Language</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>

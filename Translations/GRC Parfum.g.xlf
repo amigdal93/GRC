@@ -3,6 +3,61 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="GRC Parfum">
     <body>
       <group id="body">
+        <trans-unit id="Table 556177144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F1 - TabSalesPersonClientItem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nr.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 389816250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client nr.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Client No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 100502418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Client Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item nr.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 2842094365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Item Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 553464652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 940688118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Salesperson Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 1439501071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3472300487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson sum-up fees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page F1 - PagSalesPersonClientItem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3472300487 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ActionName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page F1 - PagSalesPersonClientItem - Action ActionName - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 3320051604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Label</source>
           <note from="Developer" annotates="general" priority="2"></note>
