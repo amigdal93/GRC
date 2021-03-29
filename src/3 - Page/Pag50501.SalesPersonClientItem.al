@@ -16,35 +16,42 @@ page 50501 "F1 - PagSalesPersonClientItem"
             {
                 field(No; Rec."No.")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = Basic, Suite;
+                    Visible = false;
                 }
                 field(ClientNo; Rec."Client No.")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = Basic, Suite;
                 }
                 field(ClientName; Rec."Client Name")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = Basic, Suite;
                 }
                 field(ItemNo; Rec."Item No.")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = Basic, Suite;
                 }
                 field(ItemDescription; Rec."Item Description")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = Basic, Suite;
                 }
                 field(SalespersonCode; Rec."Salesperson Code")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = Basic, Suite;
                 }
                 field(SalespersonName; Rec."Salesperson Name")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = Basic, Suite;
                 }
                 field(Fees; Rec."Fees")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = Basic, Suite;
+                }
+                field(LineNo; Rec."Line No.")
+                {
+                    ApplicationArea = Basic, Suite;
+                    ToolTip = 'Specifies the line number.';
+                    Visible = false;
                 }
             }
         }

@@ -76,13 +76,17 @@ table 50501 "F1 - TabSalesPersonClientItem"
         }
         field(8; "Fees"; Integer)
         {
-            Caption = 'Fees';
+            Caption = '% Fees';
+        }
+        field(9; "Line No."; Integer)
+        {
+            Caption = 'Line No.';
         }
     }
 
     keys
     {
-        key(PK; "No.")
+        key(Key1; "No.", "Line No.")
         {
             Clustered = true;
         }

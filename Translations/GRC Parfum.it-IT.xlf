@@ -6,101 +6,75 @@
     </header>
     <body>
       <group id="body" datatype="resx">
-        <trans-unit id="Report 2333976734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prod. Order Comp. and Routing</source>
+        <trans-unit id="Table 556177144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F1 - TabSalesPersonClientItem</source>
+          <target state="translated">F1 - TabSalesPersonClientItem</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nr.</source>
+          <target state="translated">No.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 389816250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client nr.</source>
+          <target state="translated">Nr. cliente</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Client No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 100502418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client name</source>
+          <target state="translated">Nome cliente</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Client Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item nr.</source>
+          <target state="translated">Nr. articolo</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 2842094365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item description</source>
+          <target state="translated">Descrizione articolo</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Item Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 553464652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson code</source>
+          <target state="translated">Codice agente</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 940688118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson name</source>
+          <target state="translated">Nome agente</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Salesperson Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 1439501071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>% Fees</source>
+          <target state="translated">% provvigione</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <target state="translated">Nr. riga</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3472300487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson sum-up fees</source>
+          <target state="translated">Riassunto provvigioni agente</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page F1 - PagSalesPersonClientItem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3472300487 - Control 1165969121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line number.</source>
+          <target state="translated">Specifica il numero della riga.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page F1 - PagSalesPersonClientItem - Control LineNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3472300487 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ActionName</source>
           <target state="new"></target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - ProdOrderCompandRouting - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2333976734 - NamedType 2975731450" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Page</source>
-          <target state="translated">Pagina</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - ProdOrderCompandRouting - NamedType CurrReportPageNoCaptLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2333976734 - NamedType 4116219673" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prod. Order - Components and Routing Lines</source>
-          <target state="new"></target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - ProdOrderCompandRouting - NamedType PrdOdrCmptsandRtngLinsCptLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2333976734 - NamedType 613275428" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <target state="translated">Descrizione</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - ProdOrderCompandRouting - NamedType ProductionOrderDescCaptLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2333976734 - NamedType 68551913" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Starting Date</source>
-          <target state="translated">Data inizio</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - ProdOrderCompandRouting - NamedType ProdOdrLineStrtngDteCaptLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2333976734 - NamedType 2651382460" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ending Date</source>
-          <target state="translated">Data fine</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - ProdOrderCompandRouting - NamedType ProdOrderLineEndgDteCaptLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2333976734 - NamedType 1147391871" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Due Date</source>
-          <target state="translated">Data scadenza</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - ProdOrderCompandRouting - NamedType ProdOrderLineDueDateCaptLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1424609248 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prod. Order - List</source>
-          <target state="translated">Lista ordini produzione</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1424609248 - NamedType 2980640554" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prod. Order - List</source>
-          <target state="translated">Lista ordini produzione</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType Prod__Order___ListCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1424609248 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Page</source>
-          <target state="translated">Pagina</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType CurrReport_PAGENOCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1424609248 - NamedType 2056924278" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Starting Date and Time</source>
-          <target state="translated">Data e ora inizio</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType Production_Order__Starting_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1424609248 - NamedType 2700931458" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Due Date</source>
-          <target state="translated">Data scadenza</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType Production_Order__Due_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 4146123321 - Action 2232472711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3830228482">
-          <source>Production Order List</source>
-          <target state="translated">Lista ordini produzione 2</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtFirmPlannedProdOrders - Action F1 - Production Order List - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page F1 - PagSalesPersonClientItem - Action ActionName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3320051604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Label</source>
           <target state="translated">Etichetta articolo</target>
           <note from="Xliff Generator" annotates="general" priority="3">Report GRC - Item Label - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3320051604 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <target state="translated">Opzioni</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - Item Label - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3320051604 - Control 1789639719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Format</source>
-          <target state="translated">Formato</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - Item Label - Control LabelFormat - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3320051604 - Control 1789639719 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>36 x 70 mm (3 columns),37 x 70 mm (3 columns),36 x 105 mm (2 columns),37 x 105 mm (2 columns)</source>
-          <target state="translated">36 x 70 mm (3 colonne),37 x 70 mm (3 colonne),36 x 105 mm (2 colonne),37 x 105 mm (2 colonne)</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - Item Label - Control LabelFormat - Property OptionCaption</note>
-        </trans-unit>
-        <trans-unit id="Report 3320051604 - Control 1789639719 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the format of the label.</source>
-          <target state="translated">Specifica formato della etichetta.</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Report GRC - Item Label - Control LabelFormat - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3320051604 - NamedType 3426680361" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code:</source>
@@ -112,6 +86,31 @@
           <target state="translated">Ubicazione:</target>
           <note from="Xliff Generator" annotates="general" priority="3">Report GRC - Item Label - NamedType LocationLbl</note>
         </trans-unit>
+        <trans-unit id="Report 1424609248 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - List</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1424609248 - NamedType 2980640554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - List</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType Prod__Order___ListCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1424609248 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Pagina</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1424609248 - NamedType 2056924278" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date and Time</source>
+          <target state="translated">Data e ora inizio</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType Production_Order__Starting_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1424609248 - NamedType 2700931458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target state="translated">Data scadenza</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report F1 - Prod. Order - List - NamedType Production_Order__Due_Date_CaptionLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3789547247 - Control 4187992892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Direct Unit Cost</source>
           <target state="translated">Costo unitario diretto</target>
@@ -119,12 +118,12 @@
         </trans-unit>
         <trans-unit id="PageExtension 3789547247 - Method 716454850 - NamedType 1999083748" size-unit="char" translate="yes" xml:space="preserve">
           <source>The preferencial vendor for the article %1 is %2.</source>
-          <target state="translated">Fornitore preferenziale per l'articolo %1 è %2.</target>
+          <target state="translated">Il fornitore preferenziale per l'articolo %1 è %2.</target>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemVendorCatalog - Method OnOpenPage - NamedType InformMessageLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 3789547247 - Method 716454850 - NamedType 1162544269" size-unit="char" translate="yes" xml:space="preserve">
           <source>The preferencial vendor for the article </source>
-          <target state="translated">Fornitore preferenziale per l'articolo</target>
+          <target state="translated">Il fornitore preferenziale per l'articolo </target>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemVendorCatalog - Method OnOpenPage - NamedType Lbl001</note>
         </trans-unit>
         <trans-unit id="PageExtension 3789547247 - Method 716454850 - NamedType 524847652" size-unit="char" translate="yes" xml:space="preserve">
@@ -132,10 +131,20 @@
           <target state="translated"> è </target>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemVendorCatalog - Method OnOpenPage - NamedType Lbl002</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1927176922 - Action 514741837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item Label</source>
-          <target state="translated">Etichetta articolo</target>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemCard - Action Item Label - Property Caption</note>
+        <trans-unit id="PageExtension 1927176922 - Control 374142380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preferible Vendor</source>
+          <target state="translated">Fornitore preferenziale</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemCard - Control Preferible Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1927176922 - Control 572131315 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preferible Vendor No.</source>
+          <target state="translated">Nr. fornitore preferenziale</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemCard - Control F1 - Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146123321 - Action 2232472711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order List</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtFirmPlannedProdOrders - Action F1 - Production Order List - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1684870121 - Field 4187992892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Direct Unit Cost</source>

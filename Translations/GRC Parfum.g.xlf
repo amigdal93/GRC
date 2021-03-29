@@ -44,14 +44,24 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Salesperson Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 556177144 - Field 1439501071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Fees</source>
+          <source>% Fees</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 556177144 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Line No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3472300487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salesperson sum-up fees</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page F1 - PagSalesPersonClientItem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3472300487 - Control 1165969121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page F1 - PagSalesPersonClientItem - Control LineNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3472300487 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ActionName</source>
