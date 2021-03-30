@@ -53,6 +53,41 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table F1 - TabSalesPersonClientItem - Field Line No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2546523322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F1 - Salespersons list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - Salespersons list - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2546523322 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - Salespersons list - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2546523322 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - Salespersons list - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2546523322 - Field 553464652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - Salespersons list - Field Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2546523322 - Field 940688118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - Salespersons list - Field Salesperson Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2546523322 - Field 3684633414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Role Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - Salespersons list - Field Role Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2546523322 - Field 752266044 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>% Commission</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table F1 - Salespersons list - Field % Commission - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3472300487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salesperson sum-up fees</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -67,6 +102,11 @@
           <source>ActionName</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page F1 - PagSalesPersonClientItem - Action ActionName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3143783834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salespersons list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page F1 - Salespersons List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3320051604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Label</source>
@@ -138,6 +178,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemCard - Control F1 - Vendor No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 686567025 - Action 1102139224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Salespersons list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtCustomerCard - Action Salespersons List - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4146123321 - Action 2232472711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3830228482">
           <source>Production Order List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -157,6 +202,26 @@
           <source>F1 - Vendor No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TabExtItem - Field F1 - Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3684633414 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Role Description - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3684633414 - EnumValue 972110707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Role Description - EnumValue Agent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3684633414 - EnumValue 658531012 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sub-agent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Role Description - EnumValue Sub-agent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3684633414 - EnumValue 4007017078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sub-agent 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Role Description - EnumValue Sub-agent 2 - Property Caption</note>
         </trans-unit>
       </group>
     </body>

@@ -7,7 +7,6 @@ table 50501 "F1 - TabSalesPersonClientItem"
             AutoIncrement = true;
             Caption = 'Nr.';
             //Editable = false;
-
         }
         field(2; "Client No."; Code[20])
         {
@@ -22,7 +21,7 @@ table 50501 "F1 - TabSalesPersonClientItem"
                 Customer.SetRange("No.", "Client No.");
                 if Customer.FindSet() then begin
                     "Client Name" := Customer.Name;
-                    Modify();
+                    Customer.Modify();
                 end;
             end;
         }
@@ -43,7 +42,7 @@ table 50501 "F1 - TabSalesPersonClientItem"
                 Item.SetRange("No.", "Item No.");
                 if Item.FindSet() then begin
                     "Item Description" := Item.Description;
-                    Modify();
+                    Item.Modify();
                 end;
             end;
         }
@@ -65,7 +64,7 @@ table 50501 "F1 - TabSalesPersonClientItem"
                 Salesperson.SetRange(Code, "Salesperson Code");
                 if Salesperson.FindSet() then begin
                     "Salesperson Name" := Salesperson.Name;
-                    Modify();
+                    Salesperson.Modify();
                 end;
             end;
         }
@@ -88,31 +87,7 @@ table 50501 "F1 - TabSalesPersonClientItem"
     {
         key(Key1; "No.", "Line No.")
         {
-            Clustered = true;
+            //Clustered = true;
         }
     }
-
-    var
-        myInt: Integer;
-
-    trigger OnInsert()
-    begin
-
-    end;
-
-    trigger OnModify()
-    begin
-
-    end;
-
-    trigger OnDelete()
-    begin
-
-    end;
-
-    trigger OnRename()
-    begin
-
-    end;
-
 }

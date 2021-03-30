@@ -1,4 +1,4 @@
-pageextension 50503 PagExtFirmPlannedProdOrders extends "Firm Planned Prod. Orders"
+pageextension 50504 PagExtFirmPlannedProdOrders extends "Firm Planned Prod. Orders"
 {
     actions
     {

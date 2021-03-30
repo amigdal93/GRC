@@ -54,6 +54,7 @@ pageextension 50501 PagExtItemVendorCatalog extends "Item Vendor Catalog"
         Item: Record Item;
         PreferedVendorName: Text[100];
         ItemNo: Code[20];
+        ItemVendor: Record "Item Vendor";
     begin
         //> managed message with article number and prefered vendor name
         if Item.Get(Rec."Item No.") then begin
@@ -62,11 +63,6 @@ pageextension 50501 PagExtItemVendorCatalog extends "Item Vendor Catalog"
                 ItemNo := Item."No.";
 
                 Message(InformMessageLbl, ItemNo, PreferedVendorName);
-
-                // da gestire
-                /*                 Item.SetRange("F1 - Vendor No.", Rec."Vendor No.");
-                                if Item.FindSet() then
-                                    Rec.Mark(true); */
             end;
         end;
 
@@ -85,6 +81,14 @@ pageextension 50501 PagExtItemVendorCatalog extends "Item Vendor Catalog"
                 PrefVendorNotification.Message(NotificationMsg);
                 //Send the notification to the client.
                 PrefVendorNotification.Send();
+
+
+                /*                 // da gestire
+                                ItemVendor.Reset();
+                                ItemVendor.SetRange("Item No.", Item."No.");
+                                ItemVendor.SetRange("Vendor No.", Item."F1 - Vendor No.");
+                                if ItemVendor.FindSet() then
+                                    ItemVendor.Mark(true); */
             end;
         end;
     end;
