@@ -5,7 +5,6 @@ page 50502 "F1 - Salespersons List"
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = "F1 - Salespersons List";
-
     layout
     {
         area(Content)
@@ -40,4 +39,14 @@ page 50502 "F1 - Salespersons List"
             }
         }
     }
+
+    trigger OnAfterGetCurrRecord()
+    var
+        CustomerCard: Page "Customer Card";
+        SalesInvoice: Page "Sales Invoice";
+    begin
+        CustomerCard.SaveRecord();
+        CustomerCard.Update();
+        SalesInvoice.Update();
+    end;
 }

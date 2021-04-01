@@ -178,11 +178,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemCard - Control F1 - Vendor No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 686567025 - Action 1102139224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Salespersons list</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtCustomerCard - Action Salespersons List - Property Caption</note>
-        </trans-unit>
         <trans-unit id="PageExtension 4146123321 - Action 2232472711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3830228482">
           <source>Production Order List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -202,6 +197,16 @@
           <source>F1 - Vendor No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TabExtItem - Field F1 - Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2080486750 - Field 3360638650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Salespersons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TabExtCustomer - Field Salespersons - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4291054427 - Field 3360638650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Salespersons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TabExtSalesHeader - Field Salespersons - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3684633414 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>

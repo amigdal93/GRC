@@ -83,6 +83,8 @@ page 50501 "F1 - PagSalesPersonClientItem"
 
     }
 
+    trigger OnOpenPage()
     var
-        myInt: Integer;
+    begin
+    end;
 }
