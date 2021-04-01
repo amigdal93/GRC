@@ -48,7 +48,7 @@ table 50502 "F1 - Salespersons list"
     {
         key(PK; "No.")
         {
-            //Clustered = true;
+            Clustered = true;
         }
     }
 }

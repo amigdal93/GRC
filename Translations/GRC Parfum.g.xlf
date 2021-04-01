@@ -88,6 +88,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table F1 - Salespersons list - Field % Commission - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 379734767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Additional Salespersons/Purchasers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TabAdditionSalespersPurchasers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 379734767 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TabAdditionSalespersPurchasers - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 379734767 - Field 553464652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TabAdditionSalespersPurchasers - Field Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 379734767 - Field 940688118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TabAdditionSalespersPurchasers - Field Salesperson Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 379734767 - Field 3684633414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Role Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TabAdditionSalespersPurchasers - Field Role Description - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3472300487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salesperson sum-up fees</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -107,6 +132,11 @@
           <source>Salespersons list</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page F1 - Salespersons List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3452868489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Additional Salesperson/Purchaser</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PagAdditionSalespersPurchaser - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3320051604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Label</source>
@@ -177,6 +207,21 @@
           <source>Preferible Vendor No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtItemCard - Control F1 - Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1267705530 - Action 835771410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Commissions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtSalesInvoice - Action Commissions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1267705530 - Action 4077504713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Addition Salespersons/Purchasers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtSalesInvoice - Action Addition Salespersons/Purchasers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1267705530 - Action 3014642399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Show Commissions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PagExtSalesInvoice - Action Show Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 4146123321 - Action 2232472711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3830228482">
           <source>Production Order List</source>

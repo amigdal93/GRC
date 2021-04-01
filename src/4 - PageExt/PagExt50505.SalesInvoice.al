@@ -19,4 +19,39 @@ pageextension 50505 PagExtSalesInvoice extends "Sales Invoice"
             }
         }
     }
+
+    actions
+    {
+        addafter("F&unctions")
+        {
+            group(Commissions)
+            {
+                /* action("Addition Salespersons/Purchasers")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Addition Salespersons/Purchasers';
+                    Image = SalesPurchaseTeam;
+                    RunObject = Page PagAdditionSalespersPurchaser;
+
+                    trigger OnAction()
+                    begin
+
+                    end;
+                } */
+                action("Show Commissions")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Show Commissions';
+                    Image = Percentage;
+                    //RunObject = Page PagAdditionSalespersPurchaser;
+
+                    trigger OnAction()
+                    begin
+
+                    end;
+                }
+            }
+        }
+
+    }
 }
