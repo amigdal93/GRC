@@ -73,9 +73,10 @@ table 50501 "F1 - TabSalesPersonClientItem"
             Caption = 'Salesperson name';
             TableRelation = "Salesperson/Purchaser".Name;
         }
-        field(8; "Fees"; Integer)
+        field(8; "Fees"; Decimal)
         {
             Caption = '% Fees';
+            DecimalPlaces = 0 : 5;
         }
         field(9; "Line No."; Integer)
         {

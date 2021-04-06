@@ -38,9 +38,10 @@ table 50502 "F1 - Salespersons list"
         {
             Caption = 'Role Description';
         }
-        field(6; "% Commission"; Integer)
+        field(6; "Fees"; Decimal)
         {
-            Caption = '% Commission';
+            Caption = '% Fees';
+            DecimalPlaces = 0 : 5;
         }
     }
 

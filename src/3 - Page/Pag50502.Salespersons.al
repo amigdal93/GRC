@@ -32,21 +32,11 @@ page 50502 "F1 - Salespersons List"
                 {
                     ApplicationArea = All;
                 }
-                field(Commission; Rec."% Commission")
+                field(Commission; Rec."Fees")
                 {
                     ApplicationArea = All;
                 }
             }
         }
     }
-
-    trigger OnAfterGetCurrRecord()
-    var
-        CustomerCard: Page "Customer Card";
-        SalesInvoice: Page "Sales Invoice";
-    begin
-        CustomerCard.SaveRecord();
-        CustomerCard.Update();
-        SalesInvoice.Update();
-    end;
 }

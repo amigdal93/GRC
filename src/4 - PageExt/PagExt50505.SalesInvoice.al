@@ -43,12 +43,7 @@ pageextension 50505 PagExtSalesInvoice extends "Sales Invoice"
                     ApplicationArea = Basic, Suite;
                     Caption = 'Show Commissions';
                     Image = Percentage;
-                    //RunObject = Page PagAdditionSalespersPurchaser;
-
-                    trigger OnAction()
-                    begin
-
-                    end;
+                    RunObject = Page "F1 - Commissions Lines";
                 }
             }
         }
