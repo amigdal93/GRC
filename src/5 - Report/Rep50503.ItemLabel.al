@@ -46,6 +46,9 @@ report 50503 "GRC - Item Label"
             column(CompAddr5; CompAddr[5])
             {
             }
+            column(CompAddr; CompAddr)
+            {
+            }
             column(ShowSection; ColumnNo = 0)
             {
             }
@@ -53,9 +56,8 @@ report 50503 "GRC - Item Label"
             trigger OnAfterGetRecord()
             begin
                 Item.Get("No.");
-
+                CompInfo.Get();
                 CompInfo.CalcFields(Picture);
-
 
                 for i := 1 to 5 do begin
                     if Item.Description <> '' then begin
@@ -67,45 +69,44 @@ report 50503 "GRC - Item Label"
                         HeaderTxt[3] := Item."No.";
                     end;
 
-
                     HeaderTxt[4] := LocationLbl;
                     HeaderTxt[5] := Item."Location Filter";
                 end;
 
+                CompAddr := CompInfo.Address + ' ' + CompInfo."Address 2" + ' ' + CompInfo."Post Code" + ' ' + CompInfo.City + ' ' + CompInfo."Country/Region Code" + ' ' + CompInfo."Phone No." + ' ' + CompInfo."E-Mail";
 
                 ItemLongDescription := Item.Description;
 
+                RecordNo := RecordNo + 1;
+                ColumnNo := ColumnNo + 1;
+                if RecordNo = NoOfRecords then begin
+                    for i := ColumnNo + 1 to NoOfColumns do
+                        Clear(Addr[i]);
+                    ColumnNo := 0;
+                end else begin
+                    if ColumnNo = NoOfColumns then
+                        ColumnNo := 0;
+                end;
 
-                /*//                 RecordNo := RecordNo + 1;
-                                ColumnNo := ColumnNo + 1;
-                                if RecordNo = NoOfRecords then begin
-                                    for i := ColumnNo + 1 to NoOfColumns do
-                                        Clear(HeaderTxt[i]);
-                                    ColumnNo := 0;
-                                end else begin
-                                    if ColumnNo = NoOfColumns then
-                                        ColumnNo := 0;
-                                end;
+                if ColumnNo = 0 then begin
+                    if Counter = RecPerPageNum then begin
+                        GroupNo := GroupNo + 1;
+                        Counter := 0;
+                    end;
+                    Counter := Counter + 1;
+                end;
+            end;
 
-                                if ColumnNo = 0 then begin
-                                    if Counter = RecPerPageNum then begin
-                                        GroupNo := GroupNo + 1;
-                                        Counter := 0;
-                                    end;
-                                    Counter := Counter + 1;
-                                end;
-                            end;
-
-                            trigger OnPreDataItem()
-                            begin
-                                case LabelFormat of
-                                    LabelFormat::"36 x 70 mm (3 columns)", LabelFormat::"37 x 70 mm (3 columns)":
-                                        NoOfColumns := 3;
-                                    LabelFormat::"36 x 105 mm (2 columns)", LabelFormat::"37 x 105 mm (2 columns)":
-                                        NoOfColumns := 2;
-                                end;
-                                NoOfRecords := Count;
-                                RecordNo := 0;*/
+            trigger OnPreDataItem()
+            begin
+                case LabelFormat of
+                    LabelFormat::"36 x 70 mm (3 columns)", LabelFormat::"37 x 70 mm (3 columns)":
+                        NoOfColumns := 3;
+                    LabelFormat::"36 x 105 mm (2 columns)", LabelFormat::"37 x 105 mm (2 columns)":
+                        NoOfColumns := 2;
+                end;
+                NoOfRecords := Count;
+                RecordNo := 0;
             end;
         }
     }
@@ -114,30 +115,35 @@ report 50503 "GRC - Item Label"
     {
         SaveValues = true;
 
-        /* 
-                layout
+        layout
+        {
+            area(content)
+            {
+                group(Options)
                 {
-                    area(content)
+                    Caption = 'Options';
+                    field(LabelFormat; LabelFormat)
                     {
-                        group(Options)
-                        {
-                            Caption = 'Options';
-                            field(LabelFormat; LabelFormat)
-                            {
-                                ApplicationArea = Suite;
-                                Caption = 'Format';
-                                OptionCaption = '36 x 70 mm (3 columns),37 x 70 mm (3 columns),36 x 105 mm (2 columns),37 x 105 mm (2 columns)';
-                                ToolTip = 'Specifies the format of the label.';
-                            }
-                        }
+                        ApplicationArea = Suite;
+                        Caption = 'Format';
+                        OptionCaption = '36 x 70 mm (3 columns),37 x 70 mm (3 columns),36 x 105 mm (2 columns),37 x 105 mm (2 columns)';
+                        ToolTip = 'Specifies the format of the label.';
                     }
-                } */
+                }
+            }
+        }
     }
 
+    trigger OnPreReport()
+    begin
+        GroupNo := 1;
+        RecPerPageNum := 4;
+    end;
+
     var
-        //Addr: array[3, 4] of Text[250];
+        Addr: array[3, 4] of Text[250];
         HeaderTxt: array[5] of Text[100];
-        CompAddr: array[5] of Text[100];
+        CompAddr: Text[500];
         NoOfRecords: Integer;
         RecordNo: Integer;
         NoOfColumns: Integer;
@@ -149,12 +155,11 @@ report 50503 "GRC - Item Label"
         CompInfo: Record "Company Information";
         Counter: Integer;
         RecPerPageNum: Integer;
-
         GroupNo: Integer;
         LabelFormat: Option "36 x 70 mm (3 columns)","37 x 70 mm (3 columns)","36 x 105 mm (2 columns)","37 x 105 mm (2 columns)";
 
-    /*     procedure InitializeRequest(SetLabelFormat: Option)
-        begin
-            LabelFormat := SetLabelFormat;
-        end; */
+    procedure InitializeRequest(SetLabelFormat: Option)
+    begin
+        LabelFormat := SetLabelFormat;
+    end;
 }

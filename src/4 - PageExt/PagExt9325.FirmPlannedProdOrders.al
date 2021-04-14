@@ -1,8 +1,8 @@
 pageextension 50504 PagExtFirmPlannedProdOrders extends "Firm Planned Prod. Orders"
 {
-    actions
+    /*actions
     {
-        addlast(reporting)
+         addlast(reporting)
         {
             action("F1 - Production Order List")
             {
@@ -21,6 +21,6 @@ pageextension 50504 PagExtFirmPlannedProdOrders extends "Firm Planned Prod. Orde
                         Report.RunModal(50501, true, true, ProductionOrder);
                 end;
             }
-        }
-    }
+        } 
+    }*/
 }

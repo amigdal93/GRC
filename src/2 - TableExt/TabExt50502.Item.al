@@ -2,7 +2,20 @@ tableextension 50502 TabExtItem extends Item
 {
     fields
     {
-        field(50501; "Preferible Vendor"; Text[100])
+        field(50500; "Vendor Name"; Text[100])
+        {
+            TableRelation = Vendor;
+
+            trigger OnValidate()
+            begin
+                // inserts vendor name instead of vendor number
+                VendorRec.Reset();
+                VendorRec.Get("Vendor No.");
+                Rec."Vendor Name" := VendorRec.Name;
+                Rec.Modify();
+            end;
+        }
+        /* field(50501; "Preferible Vendor"; Text[100])
         {
             TableRelation = Vendor;
             ValidateTableRelation = true;
@@ -30,7 +43,7 @@ tableextension 50502 TabExtItem extends Item
         {
             TableRelation = Vendor;
             ValidateTableRelation = true;
-        }
+        } */
     }
     var
         VendorRec: Record Vendor;

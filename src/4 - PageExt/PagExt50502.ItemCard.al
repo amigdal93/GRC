@@ -2,16 +2,25 @@ pageextension 50502 PagExtItemCard extends "Item Card"
 {
     layout
     {
-        addlast(Purchase)
+        /* addlast(Purchase)
         {
             field("Preferible Vendor"; Rec."Preferible Vendor")
             {
                 Caption = 'Preferible Vendor';
                 ApplicationArea = All;
             }
-        }
+        } */
 
-        addafter("Preferible Vendor")
+
+        addafter("Vendor No.")
+        {
+            field("Vendor Name"; Rec."Vendor Name")
+            {
+                Caption = 'Vendor Name';
+                ApplicationArea = All;
+            }
+        }
+        /* addafter("Preferible Vendor")
         {
             field("F1 - Vendor No."; Rec."F1 - Vendor No.")
             {
@@ -19,6 +28,6 @@ pageextension 50502 PagExtItemCard extends "Item Card"
                 ApplicationArea = All;
                 Visible = true;
             }
-        }
+        } */
     }
 }

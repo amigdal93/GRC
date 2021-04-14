@@ -48,35 +48,39 @@ pageextension 50501 PagExtItemVendorCatalog extends "Item Vendor Catalog"
         InformMessageLbl: Label 'The preferencial vendor for the article %1 is %2.';
         Lbl001: Label 'The preferencial vendor for the article ';
         Lbl002: Label ' is ';
+        Lbl003: Label ' - code ';
         NotificationMsg: Text;
         PrefVendor: Text;
         InformMessage: Text;
         Item: Record Item;
         PreferedVendorName: Text[100];
+        PreferedVendorNo: Code[20];
         ItemNo: Code[20];
         ItemVendor: Record "Item Vendor";
     begin
-        //> managed message with article number and prefered vendor name
-        if Item.Get(Rec."Item No.") then begin
-            if Item."Preferible Vendor" <> '' then begin
-                PreferedVendorName := Item."Preferible Vendor";
-                ItemNo := Item."No.";
+        /*         //> managed message with article number and prefered vendor name
+                if Item.Get(Rec."Item No.") then begin
+                    if Item."Preferible Vendor" <> '' then begin
+                        PreferedVendorName := Item."Preferible Vendor";
+                        ItemNo := Item."No.";
 
-                Message(InformMessageLbl, ItemNo, PreferedVendorName);
-            end;
-        end;
+                        Message(InformMessageLbl, ItemNo, PreferedVendorName);
+                    end;
+                end; */
 
         //> managed notification with article number and prefered vendor name
         if Item.Get(Rec."Item No.") then begin
-            if Item."Preferible Vendor" <> '' then begin
+            if Item."Vendor No." <> '' then begin
                 //Add a data property for the vendor number
                 PrefVendorNotification.SetData('ItemNo', Item."No.");
-                PrefVendorNotification.SetData('PrefVendor', Item."Preferible Vendor");
+                PrefVendorNotification.SetData('PrefVendor', Item."Vendor Name");
+                PrefVendorNotification.SetData('PrefVendorNo', Item."Vendor No.");
 
                 PrefVendorNotification.Scope := NotificationScope::LocalScope;
                 ItemNo := PrefVendorNotification.GetData('ItemNo');
                 PreferedVendorName := PrefVendorNotification.GetData('PrefVendor');
-                NotificationMsg := Lbl001 + ItemNo + Lbl002 + PreferedVendorName + '.';
+                PreferedVendorNo := PrefVendorNotification.GetData('PrefVendorNo');
+                NotificationMsg := Lbl001 + ItemNo + Lbl002 + PreferedVendorName + Lbl003 + PreferedVendorNo + '.';
                 //Create the notification
                 PrefVendorNotification.Message(NotificationMsg);
                 //Send the notification to the client.
